@@ -7,6 +7,13 @@
 		"Year": "2018"
 	},
 	{
+        	"Department": "Electronics and Communication Engineering",
+        	"Link": "https://drive.google.com/open?id=1cXV2uWVIeal3F_AQes1pyi0tyE1bJwNf",
+        	"Paper": "VLSI Technology and Applications",
+        	"Semester": "6th Sem / T1",
+        	"Year": "2018"
+    	},
+	{
 		"Department": "Bioinformatics",
 		"Link": "https://drive.google.com/open?id=1up1jlxFyD7zDC-UMze_wuxja8UsoGPTB",
 		"Paper": "Computer Aided Drug Design",
