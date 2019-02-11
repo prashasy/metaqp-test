@@ -42,7 +42,15 @@ PRs are most welcome!
 
 ## Contributor
 
-Made with <span style="font-size:130%;color:red;">&hearts;</span> [Akhilesh Kumar](http://akhileshkumar.me) and [Lavish Kumar](github.com/lavish-kumar)
+Made with <span style="font-size:130%;color:red;">&hearts;</span> [Akhilesh Kumar](http://akhileshkumar.me), [Lavish Kumar](github.com/lavish-kumar) and [Samad Khan](https://github.com/khansamad99)
+
+## Data Contributor
++ [Prakhar Singh]()
++ [Bhawna Dey]()
++ [Sudhanshu Sridhar]()
++ [Varun Singh]()
++ [Astitva Shrestha]()
++ [Arpit Garg]()
 
 ## Maintainer
 
