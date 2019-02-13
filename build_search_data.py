@@ -31,9 +31,9 @@ def recur(cwd,tag):
 						url=url+elem
 						try:
 							if(sem==-1):
-								x={"title":course,"Link":url,"exam":tag[tag_len-2],"sem":"","department":tag[tag_len-1]}
+								x={"Paper":course,"Link":url,"Year":tag[tag_len-2],"Semester":"","Department":tag[tag_len-1]}
 							else:
-								x={"title":course,"Link":url,"exam":tag[tag_len-2],"sem":sem,"department":tag[tag_len-1]}
+								x={"Paper":course,"Link":url,"Year":tag[tag_len-2],"Semester":sem,"Department":tag[tag_len-1]}
 						except:
 							print("FILE ERROR : {}".format(elem))
 							print("Tag->{}".format(tag))
@@ -47,7 +47,7 @@ def main():
 	tag=[]
 	recur(cwd,tag)
 	t=json.dumps(data)
-	f=open("data.json",'w')
+	f=open("data/data.json",'w')
 	f.write(t)
 	f.close()
 	print(t)
