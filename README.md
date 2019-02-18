@@ -5,10 +5,12 @@
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 ![metaqp](https://github.com/akhilesh-k/metaqp/blob/master/resources/images/test.png)
 
-Aki is a wimpy kid. Seriously? Is he lazy? Not at all! 
-He always keeps asking, 'How to get the freaking question papers?'. He is in search of his Question papers for T1 and sick of clicking numerous folders for hours on the boring dot6 space. Boom! He got an idea. He started to search the question papers from the search bar. He went to dot6. Wow! What a beautiful place it is! He found the Question paper and checked department semesters, examinations, found out the matching one, and finally, he solved the paper. 
+Aki is a studious child. Seriously? Is he lazy? Not at all! 
+He always keeps asking, 'How to get the freaking question papers?'. He is in search of his Question papers for T1 and sick of clicking numerous folders for hours on the boring dot6 space. Boom! He got an idea. He started to search the question papers from the search bar. He went to dot6. 
 
-But, alas! He was late. The another stud who had a better access, solved papers much before. Aki asked him, 'Bro, how did you find it earlier?'. He replied, 'Use **metaQP** kid!'.
+Wow! What a beautiful place it is! He found the Question paper and checked department semesters, examinations, found out the matching one, and finally, he solved the paper. 
+
+Maybe it was too late and some stud who had a better access, solved papers much before. Aki asked him, 'Bro, how did you find it earlier?'. He replied, 'Use **MetaQP** son!'.
 
 ### Development
 
@@ -21,14 +23,20 @@ $ sudo npm install http-server
 $ http-server metaqp
 ```
 
-### Pretty printing `data.json`
+### Generating Data in JSON format
+
+`python3 build_search_data.py`
+
+This script logs the address of question paper files and output the required JSON data.
+
+#### Buitifying `data.json`
 
 You can use any JSON utility that is installed on your computer.
 [`jq`](https://stedolan.github.io/jq/) is recommended.
 
 ```sh
-$ jq '' data/data.json > data/data2.json
-$ mv data/data2.json data/data.json
+$ jq '' data/list.json > data/data.json
+$ mv data/data.json data/list.json
 ```
 
 ## Wiki
@@ -42,7 +50,7 @@ PRs are most welcome!
 
 ## Contributor
 
-Made with <span style="font-size:130%;color:red;">&hearts;</span> [Akhilesh Kumar](http://akhileshkumar.me) and [Lavish Kumar](github.com/lavish-kumar)
+Made with <span style="font-size:130%;color:red;">&hearts;</span> [Akhilesh Kumar](http://akhileshkumar.me), [Lavish Kumar](github.com/lavish-kumar) and [Samad Khan](https://github.com/khansamad99)
 
 ## Maintainer
 
