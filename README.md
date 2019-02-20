@@ -50,7 +50,18 @@ PRs are most welcome!
 
 ## Contributor
 
-Made with <span style="font-size:130%;color:red;">&hearts;</span> [Akhilesh Kumar](http://akhileshkumar.me), [Lavish Kumar](github.com/lavish-kumar) and [Samad Khan](https://github.com/khansamad99)
+
+Made with <span style="font-size:130%;color:red;">&hearts;</span> [Akhilesh Kumar](http://akhileshkumar.me), [Lavish Kumar](github.com/lavish-kumar) and [Prashasy Ashok](http://github.com/prashasy)
+
+## Data Contributor
++ [Samad Khan](https://github.com/khansamad99)
++ [Prakhar Singh]()
++ [Bhawna Dey]()
++ [Sudhanshu Sridhar]()
++ [Varun Singh]()
++ [Astitva Shrestha]()
++ [Arpit Garg]()
+
 
 ## Maintainer
 
