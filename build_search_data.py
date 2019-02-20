@@ -51,11 +51,10 @@ def main():
 	cwd=os.getcwd()
 	tag=[]
 	recur(cwd,tag)
-	t=json.dumps(data)
 	f=open("data/data.json",'w')
-	f.write(t)
+	f.write((json.dumps(data, indent=4, sort_keys=True)))
 	f.close()
-	print(t)
+	print(json.dumps(data,indent=4,sort_keys=True))
 
 main()
 
