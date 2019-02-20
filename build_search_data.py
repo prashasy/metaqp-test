@@ -20,7 +20,7 @@ def recur(cwd,tag):
 					x={}
 					if(tag!=[]):
 						tag_len=len(tag)
-						url="https://www.jyc.co.in/metaqp/"
+						url="https://s3.ap-south-1.amazonaws.com/metaqp/"
 						for part in tag:
 							# for ch in part:
 							# 	if(ch==' '):
