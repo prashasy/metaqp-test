@@ -32,13 +32,13 @@ def recur(cwd,tag):
 						try:
 							if(sem==-1):
 								if(tag[tag_len-1]=="Done"):
-									x={"Department":tag[tag_len-2],"Link":url,"Paper":course,"Semester":"","Year":tag[tag_len-3].replace("Done","")}
+									x={"Department":tag[tag_len-2],"Link":url,"Paper":course,"Semester":"","Year":tag[tag_len-3].replace("Done, ","")}
 								else:
 									x={"Department":tag[tag_len-1],"Link":url,"Paper":course,"Semester":"","Year":tag[tag_len-2]}
 							elif(tag[tag_len-1]=="Done"):
-								x={"Department":tag[tag_len-2],"Link":url,"Paper":course,"Semester":sem,"Year":tag[tag_len-3].replace("Done","")}
+								x={"Department":tag[tag_len-2],"Link":url,"Paper":course,"Semester":sem,"Year":tag[tag_len-3].replace("Done, ","")}
 							else:
-								x={"Department":tag[tag_len-1],"Link":url,"Paper":course,"Semester":sem,"Year":tag[tag_len-2].replace("Done","")}
+								x={"Department":tag[tag_len-1],"Link":url,"Paper":course,"Semester":sem,"Year":tag[tag_len-2].replace("Done, ","")}
 						except:
 							print("FILE ERROR : {}".format(elem))
 							print("Tag->{}".format(tag))
