@@ -98,7 +98,7 @@ $(function() {
 //      $('#query').removeClass("hidden");
     var html = '';
     for (var i = 0; i < 20; ++i) {
-      html += `<a href="`+results[i].Link+`" class=" list-group-item list-group-item-action flex-column align-items-start my-1 card" style="padding: 0.1rem">
+      html += `<a href="`+results[i].Link+`" target="_blank" class=" list-group-item list-group-item-action flex-column align-items-start my-1 card" style="padding: 0.1rem">
       <div class="card">
         <div class="card-header bg-primary" >
           <div class="d-inline-flex mx-auto" style="">
