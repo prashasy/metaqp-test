@@ -51,7 +51,7 @@ def main():
 	cwd=os.getcwd()
 	tag=[]
 	recur(cwd,tag)
-	f=open("data/data1.json",'w')
+	f=open("data/data.json",'w')
 	f.write((json.dumps(data, indent=4, sort_keys=True)))
 	f.close()
 	print(json.dumps(data,indent=4,sort_keys=True))
